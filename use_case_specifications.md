@@ -1,10 +1,3 @@
-
----
-
-
-
-#### **Code**:
-```markdown
 # Use Case Specifications for NsukuSambo Fitness Tracker
 
 ## Use Case 1: Track Real-Time Activity
