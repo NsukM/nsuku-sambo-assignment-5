@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Fitness Enthusiast] -->|Uses| B(Track Real-Time Activity)
     A -->|Uses| C(Manage Profile)
