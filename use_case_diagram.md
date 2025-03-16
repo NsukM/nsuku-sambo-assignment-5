@@ -1,6 +1,3 @@
-# Use Case Diagram for NsukuSambo Fitness Tracker
-
-```mermaid
 graph TD
     A[Fitness Enthusiast] -->|Uses| B(Track Real-Time Activity)
     A -->|Uses| C(Manage Profile)
@@ -12,6 +9,10 @@ graph TD
     K[Wearable Device Partner] -->|Integrates| L(Sync Device Data)
     M[Data Analyst] -->|Analyzes| N(Generate Fitness Analytics)
     O[Mobile App Developer] -->|Develops| P(Maintain Mobile App)
+
+    B -->|Depends on| L
+    F -->|Depends on| L
+    D -->|Depends on| N
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style G fill:#bbf,stroke:#333,stroke-width:2px
